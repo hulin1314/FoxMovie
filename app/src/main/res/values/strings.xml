@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">热门电影</string>
+    <string name="action_settings">设置</string>
+    <string name="action_refresh">刷新</string>
+
+    <!--&lt;!&ndash; Label for the location preference [CHAR LIMIT=30] &ndash;&gt;-->
+    <!--<string name="pref_location_label">排序方式</string>-->
+
+    <!--&lt;!&ndash; Key name for storing location in SharedPreferences [CHAR LIMIT=NONE] &ndash;&gt;-->
+    <!--<string name="pref_location_key" translatable="false">location</string>-->
+
+    <!--&lt;!&ndash; Default postal code for location preference [CHAR LIMIT=NONE] &ndash;&gt;-->
+    <!--<string name="pref_location_default" translatable="false">popular</string>-->
+
+
+    <!-- Key name for temperature unit preference in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">units</string>
+
+    <!-- Value in SharedPreferences for metric temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_popular" translatable="false">popular</string>
+
+    <!-- Value in SharedPreferences for imperial temperature unit option [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_rated" translatable="false">top_rated</string>
+
+    <string name="pref_label">排序方式</string>
+
+    <!-- Label for metric option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_popular">热度</string>
+
+    <!-- Label for imperial option in temperature unit preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_rated">高分</string>
+
+
+    <!--&lt;!&ndash; Strings related to Notification Enabled preference &ndash;&gt;-->
+    <!--<string name="pref_enable_notifications_key" translatable="false">enable_notifications</string>-->
+    <!--<string name="pref_enable_notifications_label">Weather Notifications</string>-->
+
+    <!--<string name="pref_enable_notifications_true">Enabled</string>-->
+    <!--<string name="pref_enable_notifications_false">Not Enabled</string>-->
+    <!--<string name="pref_enable_notifications_default" translatable="false">true</string>-->
+</resources>

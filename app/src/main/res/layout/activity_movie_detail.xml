@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_movie_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:context="com.isee_flynn.foxmovie.MovieDetailActivity">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:textSize="28dp"
+                android:paddingLeft="25dp"
+                android:gravity="center_vertical"
+                android:background="#159588"
+                android:layout_height="80dp"/>
+
+        <RelativeLayout
+                android:padding="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:id="@+id/backdrop_path"
+                    android:layout_width="129dp"
+                    android:scaleType="fitXY"
+                    android:layout_height="194dp"/>
+
+            <TextView
+                    android:id="@+id/release_date"
+                    android:layout_width="wrap_content"
+                    android:textSize="28dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:layout_toRightOf="@id/backdrop_path"
+                    android:layout_height="wrap_content"/>
+
+
+            <TextView
+                    android:id="@+id/vote_average"
+                    android:layout_width="wrap_content"
+                    android:textSize="22dp"
+                    android:layout_marginTop="15dp"
+                    android:paddingLeft="15dp"
+                    android:layout_below="@id/release_date"
+                    android:layout_toRightOf="@id/backdrop_path"
+                    android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+
+        <TextView
+                android:padding="25dp"
+                android:id="@+id/overview"
+                android:textSize="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+
+</ScrollView>
